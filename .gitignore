@@ -12,6 +12,7 @@
 !/.config/ranger/
 !/.config/waybar/
 !/.config/fuzzel/
+!/.config/*-flags.conf
 !/.condarc
 !/.zshrc
 !/.pip/
