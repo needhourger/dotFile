@@ -1,0 +1,113 @@
+* {
+  border: none;
+  font-family: Hack;
+  font-size: 13px;
+  font-weight: 700;
+  min-height: 0;
+}
+
+window#waybar {
+  background: transparent;
+  color: white;
+}
+
+tooltip {
+  background: rgba(43, 48, 59, 0.5);
+  border: 1px solid rgba(100, 114, 125, 0.5);
+}
+tooltip label {
+  color: white;
+}
+
+#workspaces {
+  background-color: rgba(0, 0, 0, 0.25);
+  margin: 5px;
+  padding: 0 6px 2px 6px;
+  border-radius: 50px;
+  border: 1px solid rgba(100, 114, 125, 0.5)
+}
+
+#workspaces button {
+  margin: 1px 2px;
+  padding: 2px 2px 0 0;
+  background: transparent;
+  color: white;
+  border-radius: 100%;
+  border: 1px transparent;
+}
+
+#workspaces button.focused {
+  background: #64727D;
+}
+
+#workspaces button.active {
+  color:pink;
+}
+
+#tray {
+  background-color: rgba(255, 255, 255, 0.65);
+  margin: 5px;
+  padding: 0 8px;
+  border-radius: 50px;
+  border: 1px solid rgba(100, 114, 125, 0.5)
+}
+
+#memory {
+  color: greenyellow;
+}
+
+#disk {
+  color: rgb(26, 194, 255);
+}
+
+#backlight {
+  color: yellow;
+}
+
+.modules-center {
+  background-color: black;
+  border-radius: 0 0 10px 10px;
+  padding: 0 15px;
+}
+
+#hardware {
+  margin: 5px 0;
+  padding: 0 5px;
+  border-radius: 10px 0 0 10px;
+  background-color: rgba(43, 48, 59, 0.9);
+}
+
+#network {
+  color: aqua;
+}
+#network.disabled {
+  color: grey;
+}
+#network.disconnected {
+  color: orangered;
+}
+#network.linked {
+  color:cornflowerblue;
+}
+#network.ethernet {
+  color: whitesmoke;
+}
+#network.wifi {
+  color: aquamarine;
+}
+
+
+#clock {
+  font-weight: 600;
+}
+
+#window {
+  border-radius: 20px;
+  padding: 0 12px;
+  margin: 6px 0 5px 0;
+  background: linear-gradient(to right, #6adae4,pink,white);
+  color: black;
+  font-family: Noto Sans CJK SC;
+  font-weight: bold;
+  border: 1px solid rgba(255, 255, 255, 0.65);
+}
