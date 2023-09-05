@@ -1,6 +1,10 @@
 /*
 !/.gitignore
 !/.github/
+!/.Xresources
+!/.condarc
+!/.zshrc
+!/.pip/
 
 !/.config/
 /.config/*
@@ -11,9 +15,7 @@
 !/.config/nvim/
 !/.config/ranger/
 !/.config/waybar/
+!/.config/neofetch/
 !/.config/fuzzel/
 !/.config/*-flags.conf
-!/.condarc
-!/.zshrc
-!/.pip/
 

@@ -50,4 +50,6 @@ source /usr/share/nvm/init-nvm.sh
 
 # PATH
 export PATH=$PATH:$(go env GOBIN)/bin:$(go env GOPATH)/bin
+export https_proxy=http://127.0.0.1:10808 http_proxy=http://127.0.0.1:10808 all_proxy=socks5://127.0.0.1:10808
 
+[ -f /opt/miniconda3/etc/profile.d/conda.sh ] && source /opt/miniconda3/etc/profile.d/conda.sh
